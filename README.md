@@ -1,3 +1,20 @@
+# MOS Projects
+
+แกลเลอรีรวมโปรเจคทั้งหมดในเครื่อง (`Documents/GitHub`) ค้นหา/กรองตามหมวด (Unity, Nuxt, Web, Python…) และสถานะ (Private/Public/Local) แล้วเปิดใน VS Code หรือ GitHub ได้ทันที
+
+```bash
+pnpm install
+pnpm dev   # เปิด http://localhost:3000 (สแกนครั้งแรกใช้ ~1 นาที หลังจากนั้นอ่านจากแคช)
+```
+
+- **เพิ่มโปรเจคใหม่**: วาง/clone โฟลเดอร์ไว้ข้าง ๆ repo นี้ (`Documents/GitHub`) แล้วเปิดหน้าเว็บ โปรเจคจะโผล่เอง (หรือกด Rescan)
+- **แก้ชื่อ/คำอธิบาย/ลิงก์ demo/แท็ก/ซ่อน**: กดปุ่ม Edit บนการ์ด
+- **โฟลเดอร์อื่น**: ตั้ง `PROJECTS_ROOT=<path>` ก่อนรัน `pnpm dev`
+- **ความเป็นส่วนตัว**: repo นี้เป็น public ข้อมูลที่สแกนและที่แก้ไขเก็บไว้ที่ `data/*.local.json` (ถูก gitignore) จึงไม่ถูก commit ชื่อ repo private/ชื่อลูกค้าไม่หลุดขึ้น GitHub
+- หน้านี้อ่านดิสก์ผ่าน server (`/api/projects`) จึงใช้ได้เฉพาะ `pnpm dev`/node server ไม่ใช้กับ `nuxt generate`
+
+---
+
 <p align="center">
 <img src="https://user-images.githubusercontent.com/11247099/140462375-7b7ac4db-35b7-453c-8a05-13d8d20282c4.png" alt="Vitesse" width="600"/>
 </p>

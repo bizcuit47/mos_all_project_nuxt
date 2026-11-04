@@ -7,3 +7,6 @@ dist
 .env
 .idea/
 public/assets/fonts
+
+# Local project catalog: contains private repo / client names, never commit
+data/*.local.json

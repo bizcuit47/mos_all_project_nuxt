@@ -1,2 +1,2 @@
-export const appName = 'Vitesse for Nuxt 4'
-export const appDescription = 'Vitesse for Nuxt 4'
+export const appName = 'MOS Projects'
+export const appDescription = 'All my projects in one place'
